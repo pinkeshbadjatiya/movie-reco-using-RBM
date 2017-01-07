@@ -1,3 +1,8 @@
+#Restricted Boltzmann Machines for Collaborative Filtering
+
+
+**Implementation of http://www.machinelearning.org/proceedings/icml2007/papers/407.pdf in python**
+
 All the codes are in the folder ./code  
 model.py is the main program which runs the training and then predictor.  
 data.py is a module written to extract data from the Netflix Prize dataset.  
