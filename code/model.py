@@ -62,7 +62,7 @@ class RBM():
         
         it = 0
         for m in movies:
-            self.w[:, m, :] += w[:, it, :]
+            self.w[:, m, :] = w[:, it, :]
             it += 1
         
     
